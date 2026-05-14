@@ -7,13 +7,13 @@
 
 <div class="box"><center>
     <form method = "POST">
-      <h1>Register</h1>
+        <h1><center>Register</center></h1>
       <br>
         {% csrf_token %}
         {{ form.as_p }}
 
     <button class="button" type="submit">Register</button>
 </form>
-</center></div>
+<center></div>
 
 {% endblock %}

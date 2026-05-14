@@ -10,23 +10,25 @@ body {
 }
 
 form {
+  
   width: 40%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+   justify-content: center;
+   align-items: center; 
   flex-direction: column;
   padding: 50px 5px;
   border: 1px solid #0645ad;
   border-radius: 20px;
   box-shadow: 10px 10px 5px 5px #0645ad;
   background-color: #ffffff;
+  
 }
 
 .name, .email, #message {
   width: 90%;
   padding: 10px 0;
   margin: 20px 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: none;
@@ -49,7 +51,7 @@ form {
   flex-direction: column;
   padding: 10px;
   font-size: 14px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: #0645ad;
   color: #ffffff;
   transition: 0.3s;
@@ -60,3 +62,5 @@ form {
 button:hover {
   background-color: #03378c;
 }
+
+
